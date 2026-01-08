@@ -20,25 +20,30 @@ body {
   background: white;
   border: 2px solid black;
   overflow: hidden;
+  background: linear-gradient(#cceeff 70%, #7cfc00 70%);
 }
 
 #player {
   position: absolute;
   bottom: 0;
   left: 50px;
-  width: 40px;
-  height: 40px;
-  background: black;
+  width: 48px;
+  height: 48px;
+  background-image: url("https://i.imgur.com/6X12UGf.png");
+  background-size: cover;
 }
+
 
 #obstacle {
   position: absolute;
   bottom: 0;
   right: -40px;
-  width: 30px;
-  height: 50px;
-  background: red;
+  width: 40px;
+  height: 60px;
+  background-image: url("https://i.imgur.com/KY6aF0F.png");
+  background-size: cover;
 }
+
 
 #score {
   position: absolute;

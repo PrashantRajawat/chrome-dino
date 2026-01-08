@@ -52,13 +52,14 @@ function moveObstacle() {
   }
 
   // Collision detection
-  if (
-    obstacleLeft > 50 &&
-    obstacleLeft < 90 &&
-    position < 40
-  ) {
-    endGame();
-  }
+if (
+  obstacleLeft > 50 &&
+  obstacleLeft < 90 &&
+  position < 45
+) {
+  endGame();
+}
+
 }
 
 let obstacleTimer = setInterval(moveObstacle, 20);
