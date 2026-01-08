@@ -44,7 +44,7 @@ function moveObstacle() {
 
   obstacleLeft -= 5;
   obstacle.style.left = obstacleLeft + "px";
-
+  
   if (obstacleLeft < -30) {
     obstacleLeft = 800;
     score++;

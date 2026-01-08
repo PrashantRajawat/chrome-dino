@@ -27,11 +27,52 @@ body {
   position: absolute;
   bottom: 0;
   left: 50px;
-  width: 48px;
-  height: 48px;
-  background-image: url("https://i.imgur.com/6X12UGf.png");
-  background-size: cover;
+  width: 40px;
+  height: 60px;
+   animation: run 0.3s infinite;
 }
+
+@keyframes run {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(2px); }
+  100% { transform: translateY(0); }
+}
+
+/* Hat */
+.hat {
+  width: 40px;
+  height: 12px;
+  background: red;
+  border-radius: 4px 4px 0 0;
+}
+
+/* Face */
+.face {
+  width: 36px;
+  height: 18px;
+  background: #f1c27d;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+/* Body */
+.body {
+  width: 32px;
+  height: 20px;
+  background: blue;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+/* Legs */
+.legs {
+  width: 32px;
+  height: 10px;
+  background: brown;
+  margin: 0 auto;
+  border-radius: 0 0 4px 4px;
+}
+
 
 
 #obstacle {
@@ -40,9 +81,24 @@ body {
   right: -40px;
   width: 40px;
   height: 60px;
-  background-image: url("https://i.imgur.com/KY6aF0F.png");
-  background-size: cover;
 }
+
+/* Tree top */
+.leaves {
+  width: 40px;
+  height: 35px;
+  background: green;
+  border-radius: 50%;
+}
+
+/* Tree trunk */
+.trunk {
+  width: 14px;
+  height: 25px;
+  background: #8b4513;
+  margin: 0 auto;
+}
+
 
 
 #score {
